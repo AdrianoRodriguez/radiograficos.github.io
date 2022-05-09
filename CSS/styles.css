@@ -199,6 +199,29 @@ body{
 .radiography__icon{
     width: 40px;
 }
+.hero__examples--img{
+    justify-content: center;
+}
+.hero__example{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+/* TIPOS */
+.digital__img, .acelerador-lineal__img, .convencional__img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 10px;
+    object-fit: cover;
+    object-position: 37% 50%;
+}
+
 
 
 /* PASOS Y SLIDER */
@@ -415,7 +438,16 @@ body{
     .radiography__article:last-of-type {
         grid-column: 1/-1;
     }
+    .hero__example{
+        width: 350px;
+        height: 230px;
+    }
 
+    /* TIPOS */
+    .digital__img, .acelerador-lineal__img, .convencional__img{
+        width: 200px;
+        height: 200px;
+    }
 
     /* PASOS */
     .steps__container {
@@ -449,8 +481,10 @@ body{
         width: 100%;
         margin-top: 20px;
     }
+    .footer__groups{
+        text-align: center;
+    }
 }
-
 @media (max-width:600px) {
     .hero__title {
         font-size: 2rem
@@ -464,7 +498,6 @@ body{
 }
 
 /* MEDIA QUERIES - TELEVISOR */
-
 @media (min-width:1900px) {
     .container {
         max-width: 1800px;

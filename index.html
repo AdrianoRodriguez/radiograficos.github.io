@@ -12,14 +12,14 @@
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://adrianorodriguez.github.io/radiograficos.github.io/">
+    <meta property="og:url" content="https://radiograficos.github.io">
     <meta property="og:title" content="Radiograficos Industriales">
     <meta property="og:description" content="Aqui aprenderas ¿Qué son?, los distintos tipo, ¿como se realizan?, ventajas y desventajas de las radiografias industrales">
     <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://adrianorodriguez.github.io/radiograficos.github.io/">
+    <meta property="twitter:url" content="https://radiograficos.github.io">
     <meta property="twitter:title" content="Radiograficos Industriales">
     <meta property="twitter:description" content="Aqui aprenderas ¿Qué son?, los distintos tipo, ¿como se realizan?, ventajas y desventajas de las radiografias industrales">
     <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
@@ -27,7 +27,7 @@
 </head>
 <body>
     <header class="hero" id="section-0">
-        <img src="./Images/background.jpg", class="hero__background">
+        <img src="./Images/background.png", class="hero__background">
         
         <nav class="nav container">
             <div class="nav__logo">
@@ -39,13 +39,13 @@
                     <a href="#section-1", class="nav__links nav__links-1">¿Que es?</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#section-2", class="nav__links nav__links-2">Pasos</a>
+                    <a href="#section-2", class="nav__links nav__links-2">Tipos</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#section-3", class="nav__links nav__links-3">Ventajas y Desventajas</a>
+                    <a href="#section-3", class="nav__links nav__links-3">Pasos</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#section-4", class="nav__links nav__links-4">Miembros</a>
+                    <a href="#section-4", class="nav__links nav__links-4">Ventajas y Desventajas</a>
                 </li>
 
                 <img src="./Images/closeMenu.svg", class="nav__close", alt="cerrar menu">
@@ -65,30 +65,44 @@
     <main>
         <section class="container radiography", id="section-1">
             <h2 class="subtitle">❗❓ ¿Qué es la radiografía industrial? ❓❗</h2>
-            <p class="radiography__paragraph">La Radiografía industrial es un <b>Ensayo No Destructivo</b> que permite inspeccionar los materiales a fin de detectar defectos no visibles, mediante la capacidad de penetración de diversos materiales que poseen los rayos X de onda corta, los rayos gama y los neutrones. Se trata de un elemento importante de los ensayos no destructivos.</p>
+            <p class="radiography__paragraph">La Radiografía industrial es un <b>Ensayo No Destructivo</b> que permite inspeccionar los materiales a fin de detectar defectos no visibles, mediante la capacidad de penetración de diversos materiales que poseen los rayos X de onda corta, los rayos gama y los neutrones. Esta radiación será más o menos absorbida por las discontinuidades internas de la pieza, llegando a la otra cara de la misma con una intensidad de radiación distinta, una vez revelada la pelicula muestra la localización de dichas discontinuidades.</p>
 
+            <div class="hero__examples--img">
+                <img src="./Images/example.png", class="hero__example", alt="ejemplo de radiografia industrial 1">
+                <img src="./Images/example-2.png", class="hero__example", alt="ejemplo de radiografia industrial 2">
+            </div>
+
+            <div id="section-2"></div>
+            
             <div class="radiography__main">
-                <article class="radiography__article">
+                
+                <article class="radiography__article", >
                     <img src="./Images/monitor.svg", class="radiography__icon", alt="monitor">
                     <h3 class="radiography__title">Radiografía digital</h3>
                     <p class="article__paragraph">La radiografía digital es una alternativa a la radiografía convencional en la que la película se sustituye por un sistema de captación cuya lectura ofrece una imagen radiográfica digitalizada.</p>
+                    
+                    <img src="./Images/radiography-digital.png", alt="radiografia digital", class="digital__img">
                 </article>
 
                 <article class="radiography__article">
                     <img src="./Images/run.svg", class="radiography__icon", alt="hombre corriendo">
                     <h3 class="radiography__title">Radiografía con acelerador lineal</h3>
                     <p class="article__paragraph">Desde finales del año 2009, SCI dispone de un acelerador lineal en sus instalaciones de Beasain destinado exclusivamente a la inspección radiográfica de grandes componentes, siendo la primera empresa española especializada en servicios de inspección que ofrece a sus clientes la posibilidad de radiografiar espesores de acero de hasta 300 mm de espesor. Para ello dispone de un acelerador lineal de 6 MeV para su utilización en búnker.</p>
+
+                    <img src="./Images/acelerador-lineal.png" alt="radiografia de acelerador linea", class="acelerador-lineal__img">
                 </article>
 
                 <article class="radiography__article">
                     <img src="./Images/simple.svg", class="radiography__icon", alt="+, -, x, /">
                     <h3 class="radiography__title">Radiografía convencional</h3>
                     <p class="article__paragraph">La radiografía convencional implica el uso de rayos X; a veces se utiliza la denominación "radiografía simple" para distinguir sólo el uso de rayos X de los que se combinan con otras técnicas.</p>
+
+                    <img src="./Images/convencional.png", alt="radiografia convencional", class="convencional__img">
                 </article>
             </div>
         </section>
 
-        <section class="steps", id="section-2">
+        <section class="steps", id="section-3">
             <div class="steps__container container">
                 <img src="./Images/leftArrow.svg", class="steps__arrow", id="before">
 
@@ -187,7 +201,7 @@
             </div>
         </section>
 
-        <section class="advantages container" id="section-3">
+        <section class="advantages container" id="section-4">
             <h2 class="subtitle">🟢 Ventajas y Desventajas 🔴</h2>
             <p class="advantages__paragraph">¿Cuáles son las ventajas del uso de la radiografía industrial? ¿Y las desventajas?, en esta sección te lo explicamos 😉</p>
 
@@ -233,7 +247,7 @@
         </section>
     </main>
 
-    <footer class="footer", id="section-4">
+    <footer class="footer">
         <section class="footer__container container">
             <nav class="nav nav--footer">
                 <h2 class="footer__title">RadioGraficos</h2>
@@ -241,33 +255,36 @@
                 <ul class="nav__link nav__link--footer">
 
                     <li class="nav__items">
+                        <a href="#section-0" class="nav__links">Inicio</a>
+                    </li>
+                    <li class="nav__items">
                         <a href="#section-1"  class="nav__links">¿Que es?</a>
                     </li>
                     <li class="nav__items">
-                        <a href="#section-2" class="nav__links">Pasos</a>
+                        <a href="#section-2" class="nav__links">Tipos</a>
                     </li>
                     <li class="nav__items">
-                        <a href="#section-3" class="nav__links">Ventajas y Desventajas</a>
+                        <a href="#section-3" class="nav__links">Pasos</a>
                     </li>
                     <li class="nav__items">
-                        <a href="#section-0" class="nav__links">Inicio</a>
+                        <a href="#section-4" class="nav__links">Ventajas y Desventajas</a>
                     </li>
 
                 </ul>
             </nav>
 
             <div class="footer__members">
-                <h2 class="footer__groups">Miembros del grupo</h2>
+                <h2 class="footer__groups">😎 Miembros del grupo 😎</h2>
                 <p class="footer__names">Adriano Rodriguez</p>
-                <p class="footer__names">Lautaro Fernandez</p>
                 <p class="footer__names">Isaac Mansur</p>
+                <p class="footer__names">Lautaro Fernandez</p>
                 <p class="footer__names">Juan Pablo Mussin</p>
             </div>
         </section>
 
         <section class="footer__copy container">
             <div class="footer__social">
-                <a href="https://www.instagram.com/r0driguez_adr1ano/", target="_BLANK", class="footer__icons"><img src="./Images/instagram.svg", class="footer__img", alt="instagram"></a>
+                <a href="https://www.instagram.com/el.r0dri/", target="_BLANK", class="footer__icons"><img src="./Images/instagram.svg", class="footer__img", alt="instagram"></a>
                 <a href="https://github.com/AdrianoRodriguez", target="_BLANK"><img src="./Images/github.svg", class="footer__img", alt="github"></a>
             </div>
 
